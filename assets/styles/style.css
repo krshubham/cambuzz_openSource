@@ -96,9 +96,7 @@ body{
 #parallax-section{
 	height: 300px;
 }
-.section-heading{
-	color: #e85657;
-}
+
 .parallax-text{
 	color: #fff;
 	font-size: 2em;
@@ -135,4 +133,22 @@ div#section-features .row:nth-child(even){
 .feature-gif{
 	margin-top: 1em;
 	margin-bottom: 1em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.bg-e85657{
+	background-color: #e85657;
+	color: #fff;
+}
+.section-heading{
+	color: #fff;
+	font-size: 7em;
+}
+.section-define-text{
+	font-size: 2em;
+}
+bg-5657e8{
+	background-color: #5657e8;
 }
