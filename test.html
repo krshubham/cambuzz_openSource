@@ -6,7 +6,7 @@
     <title>Cambuzz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--jQuery CDN link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!--materialize css loaded before custom css for changes-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
@@ -63,25 +63,29 @@
     </div>
 </div>
 <!--End of the details section-->
-<!--Youtube video section-->
-<div class="section" id="section-video">
-    <h1>What is Cambuzz ?</h1>
-    <small id="video-lead">See for yourself!</small>
-    <br>
-    <br>
-    <!-- Youtube player embed-->
-    <div id="ytplayer">
-        Sorry, The Video failed to load! <br>
-        You can visit <a href="https://www.youtube.com/watch?v=XZnF6HLu4oU">this</a> link for the video!
-    </div>
-</div>
-<!-- Youtube video player section end-->
 <!-- Push and pull play start-->
 <div class="section " id="section-features">
+    <div class="row" style="" id="Buzz">
+        <h2 class="section-heading" style="text-align:center;margin-top: 0;padding">Buzz</h2>
+        <img class="responsive-img z-depth-3 feature-gif" src="assets/images/create-a-buzz.gif" id="buzzGif" alt="Video"
+             style="z-index: 0;">
+        <div class="col s12 m12 white-text"
+             style="position: relative;z-index: 10;bottom: 0;background-color: #114f74;">
+            <p class="white-text" style="font-size: 1.5em;margin: 10px;">Missing out events you like?
+                Don't you worry, because Cambuzz
+                has the "BUZZ" feature which
+                has the updates of the latest
+                events also the upcoming ones.
+                Now you won't miss any event!
+            </p>
+        </div>
+    </div>
+
     <div class="row" id="TrackYourTeacher" style="margin-bottom:0;">
-        <h3 class="section-heading" style="text-align:center;margin-top: 0;margin-bottom: 0">Track Your Teacher</h3>
-        <img class="responsive-img z-depth-3 feature-gif" src="assets/images/track-your-teacher.gif" alt="Video"
-             style="z-index: 0;position: relative">
+        <h3 class="section-heading" style="text-align:center;margin-top: 0;margin-bottom: 0; padding-bottom: 50px;" >Track
+            Your Teacher</h3>
+        <img class="responsive-img z-depth-3 feature-gif" src="assets/images/track-your-teacher.gif" id="trackTeacherGif" alt="Video"
+             style="z-index: 0;position: relative;padding-top: 5px;">
         <div class="col s12 white-text"
              style="position: relative;z-index: 10;bottom: 0;background-color: linear-gradient(0deg, #13505D, #0d3456)">
             <p class="section-define-text">Finding difficult to locate your teacher?
@@ -95,7 +99,8 @@
     </div>
     <div class="row" id="quora" style="margin-bottom: 0;margin-top: 0;">
         <h2 class="section-heading" style="text-align:center;margin-top: 0;">Q &amp; A</h2>
-        <img class="responsive-img feature-gif z-depth-3" src="assets/images/ask-a-question.gif" alt="Video">
+        <img class="responsive-img feature-gif z-depth-3" src="assets/images/ask-a-question.gif" id="qaGif" alt="Video"
+             style="padding-top: 5px;">
         <div class="col s12" style="position: relative;z-index: 10;bottom: 0;background-color:#af5f5f;">
             <div class="section white-text">
                 <p class="section-define-text">Missing out events you like?
@@ -108,24 +113,20 @@
             </div>
         </div>
     </div>
-    <div class="row" style="" id="Buzz">
-        <h2 class="section-heading" style="text-align:center;margin-top: 0">Buzz</h2>
-        <img class="responsive-img z-depth-3 feature-gif" src="assets/images/create-a-buzz.gif" alt="Video"
-             style="z-index: 0;">
-        <div class="col s12 m12 white-text"
-             style="position: relative;z-index: 10;bottom: 0;background-color: #114f74;">
-            <p class="white-text" style="font-size: 2em;margin: 10px;">Missing out events you like?
-                Don't you worry, because Cambuzz
-                has the "BUZZ" feature which
-                has the updates of the latest
-                events also the upcoming ones.
-                Now you won't miss any event!
-            </p>
-        </div>
-    </div>
-
-
 </div>
+<!--Youtube video section-->
+<div class="section" id="section-video">
+    <h1>What is Cambuzz ?</h1>
+    <small id="video-lead">See for yourself!</small>
+    <br>
+    <br>
+    <!-- Youtube player embed-->
+    <div id="ytplayer">
+        Sorry, The Video failed to load! <br>
+        You can visit <a href="https://www.youtube.com/watch?v=XZnF6HLu4oU">this</a> link for the video!
+    </div>
+</div>
+<!-- Youtube video player section end-->
 <!-- End of the push and pull play-->
 <footer class="page-footer" style="margin-top: 0;background-color: #eceff1; ">
     <div class="container">

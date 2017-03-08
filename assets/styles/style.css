@@ -162,8 +162,9 @@ div#section-features {
 
 .section-heading {
     color: #fff;
-    font-size: 7em;
-    padding-top: 0.5rem;
+    font-size: 4em;
+    margin-bottom: 1em;
+    padding-top: 1em;
 }
 
 .section-define-text {
